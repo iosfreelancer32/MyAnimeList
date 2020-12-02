@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A641DC942577A18E00EF1386 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = A641DC932577A18E00EF1386 /* Reachability.swift */; };
 		A6F744192576A17500178958 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F744182576A17500178958 /* AppDelegate.swift */; };
 		A6F7441B2576A17500178958 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F7441A2576A17500178958 /* SceneDelegate.swift */; };
-		A6F7441D2576A17500178958 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F7441C2576A17500178958 /* ViewController.swift */; };
 		A6F744202576A17500178958 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6F7441E2576A17500178958 /* Main.storyboard */; };
 		A6F744232576A17500178958 /* MyAnimeList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A6F744212576A17500178958 /* MyAnimeList.xcdatamodeld */; };
 		A6F744252576A17C00178958 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6F744242576A17C00178958 /* Assets.xcassets */; };
 		A6F744282576A17C00178958 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6F744262576A17C00178958 /* LaunchScreen.storyboard */; };
 		A6F744332576A17C00178958 /* MyAnimeListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F744322576A17C00178958 /* MyAnimeListTests.swift */; };
+		A6F7443F2576A1F900178958 /* AnimeListCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F7443E2576A1F900178958 /* AnimeListCollectionViewController.swift */; };
+		A6F744422576A22700178958 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F744412576A22700178958 /* WebService.swift */; };
+		A6F744452576A26D00178958 /* Anime.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F744442576A26D00178958 /* Anime.swift */; };
+		A6F744482576A2C700178958 /* AnimeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F744472576A2C700178958 /* AnimeViewModel.swift */; };
+		A6F7444C2576A52200178958 /* AnimeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F7444B2576A52200178958 /* AnimeCollectionViewCell.swift */; };
+		A6F7444E2576CAD500178958 /* AnimeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F7444D2576CAD500178958 /* AnimeDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,10 +34,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A641DC932577A18E00EF1386 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		A6F744152576A17500178958 /* MyAnimeList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAnimeList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6F744182576A17500178958 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6F7441A2576A17500178958 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A6F7441C2576A17500178958 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A6F7441F2576A17500178958 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A6F744222576A17500178958 /* MyAnimeList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyAnimeList.xcdatamodel; sourceTree = "<group>"; };
 		A6F744242576A17C00178958 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -40,6 +46,12 @@
 		A6F7442E2576A17C00178958 /* MyAnimeListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAnimeListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6F744322576A17C00178958 /* MyAnimeListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAnimeListTests.swift; sourceTree = "<group>"; };
 		A6F744342576A17C00178958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6F7443E2576A1F900178958 /* AnimeListCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeListCollectionViewController.swift; sourceTree = "<group>"; };
+		A6F744412576A22700178958 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		A6F744442576A26D00178958 /* Anime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anime.swift; sourceTree = "<group>"; };
+		A6F744472576A2C700178958 /* AnimeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeViewModel.swift; sourceTree = "<group>"; };
+		A6F7444B2576A52200178958 /* AnimeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeCollectionViewCell.swift; sourceTree = "<group>"; };
+		A6F7444D2576CAD500178958 /* AnimeDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A641DC922577A16C00EF1386 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				A641DC932577A18E00EF1386 /* Reachability.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		A6F7440C2576A17500178958 = {
 			isa = PBXGroup;
 			children = (
@@ -81,9 +101,14 @@
 		A6F744172576A17500178958 /* MyAnimeList */ = {
 			isa = PBXGroup;
 			children = (
+				A641DC922577A16C00EF1386 /* Utility */,
+				A6F744492576A4F800178958 /* Cells */,
+				A6F744462576A2A400178958 /* View Model */,
+				A6F744432576A24500178958 /* Model */,
+				A6F744402576A20800178958 /* Services */,
+				A6F7443D2576A1C100178958 /* Controllers */,
 				A6F744182576A17500178958 /* AppDelegate.swift */,
 				A6F7441A2576A17500178958 /* SceneDelegate.swift */,
-				A6F7441C2576A17500178958 /* ViewController.swift */,
 				A6F7441E2576A17500178958 /* Main.storyboard */,
 				A6F744242576A17C00178958 /* Assets.xcassets */,
 				A6F744262576A17C00178958 /* LaunchScreen.storyboard */,
@@ -100,6 +125,47 @@
 				A6F744342576A17C00178958 /* Info.plist */,
 			);
 			path = MyAnimeListTests;
+			sourceTree = "<group>";
+		};
+		A6F7443D2576A1C100178958 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A6F7443E2576A1F900178958 /* AnimeListCollectionViewController.swift */,
+				A6F7444D2576CAD500178958 /* AnimeDetailsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A6F744402576A20800178958 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A6F744412576A22700178958 /* WebService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A6F744432576A24500178958 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A6F744442576A26D00178958 /* Anime.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A6F744462576A2A400178958 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				A6F744472576A2C700178958 /* AnimeViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		A6F744492576A4F800178958 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A6F7444B2576A52200178958 /* AnimeCollectionViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,9 +270,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6F744232576A17500178958 /* MyAnimeList.xcdatamodeld in Sources */,
-				A6F7441D2576A17500178958 /* ViewController.swift in Sources */,
+				A6F7444C2576A52200178958 /* AnimeCollectionViewCell.swift in Sources */,
+				A6F7444E2576CAD500178958 /* AnimeDetailsViewController.swift in Sources */,
 				A6F744192576A17500178958 /* AppDelegate.swift in Sources */,
+				A6F744452576A26D00178958 /* Anime.swift in Sources */,
 				A6F7441B2576A17500178958 /* SceneDelegate.swift in Sources */,
+				A6F744422576A22700178958 /* WebService.swift in Sources */,
+				A6F7443F2576A1F900178958 /* AnimeListCollectionViewController.swift in Sources */,
+				A641DC942577A18E00EF1386 /* Reachability.swift in Sources */,
+				A6F744482576A2C700178958 /* AnimeViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,6 +440,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MyAnimeList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -385,6 +458,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MyAnimeList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
